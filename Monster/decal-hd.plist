@@ -7,91 +7,91 @@
             <key>d0.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{0,0},{124,626}}</string>
+                <string>{{0,0},{124,640}}</string>
                 <key>offset</key>
-                <string>{0,-7}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,14},{124,626}}</string>
+                <string>{{0,0},{124,640}}</string>
                 <key>sourceSize</key>
                 <string>{124,640}</string>
             </dict>
             <key>d1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{124,0},{102,636}}</string>
+                <string>{{124,0},{102,640}}</string>
                 <key>offset</key>
-                <string>{0,-2}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,4},{102,636}}</string>
+                <string>{{0,0},{102,640}}</string>
                 <key>sourceSize</key>
                 <string>{102,640}</string>
             </dict>
             <key>d2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{226,0},{102,632}}</string>
+                <string>{{226,0},{102,640}}</string>
                 <key>offset</key>
-                <string>{0,-4}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,8},{102,632}}</string>
+                <string>{{0,0},{102,640}}</string>
                 <key>sourceSize</key>
                 <string>{102,640}</string>
             </dict>
             <key>d3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{328,0},{102,636}}</string>
+                <string>{{328,0},{102,640}}</string>
                 <key>offset</key>
-                <string>{0,-2}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,4},{102,636}}</string>
+                <string>{{0,0},{102,640}}</string>
                 <key>sourceSize</key>
                 <string>{102,640}</string>
             </dict>
             <key>d4.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{430,0},{102,636}}</string>
+                <string>{{430,0},{102,640}}</string>
                 <key>offset</key>
-                <string>{0,-2}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,4},{102,636}}</string>
+                <string>{{0,0},{102,640}}</string>
                 <key>sourceSize</key>
                 <string>{102,640}</string>
             </dict>
             <key>d5.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{532,0},{102,636}}</string>
+                <string>{{532,0},{102,640}}</string>
                 <key>offset</key>
-                <string>{0,-2}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,4},{102,636}}</string>
+                <string>{{0,0},{102,640}}</string>
                 <key>sourceSize</key>
                 <string>{102,640}</string>
             </dict>
             <key>d6.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{634,0},{124,626}}</string>
+                <string>{{634,0},{124,640}}</string>
                 <key>offset</key>
-                <string>{0,-7}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,14},{124,626}}</string>
+                <string>{{0,0},{124,640}}</string>
                 <key>sourceSize</key>
                 <string>{124,640}</string>
             </dict>
@@ -103,9 +103,9 @@
             <key>realTextureFileName</key>
             <string>decal-hd.pvr.ccz</string>
             <key>size</key>
-            <string>{758,636}</string>
+            <string>{1024,1024}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:8e258df5fcec5a3292ef439d488bb7c8$</string>
+            <string>$TexturePacker:SmartUpdate:f2c081ef58d5244e6d10d8f2d9d14e90:223a9332cede7d765c3d92a7d8d28cd7:182ef13aa75687d9db674f0d7b8d3b91$</string>
             <key>textureFileName</key>
             <string>decal-hd.pvr.ccz</string>
         </dict>
