@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AC076680157BDFC600A399AE"
-               BuildableName = "CaveRun.app"
+               BuildableName = "Monster.app"
                BlueprintName = "Monster"
                ReferencedContainer = "container:Monster.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AC076680157BDFC600A399AE"
-            BuildableName = "CaveRun.app"
+            BuildableName = "Monster.app"
             BlueprintName = "Monster"
             ReferencedContainer = "container:Monster.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AC076680157BDFC600A399AE"
-            BuildableName = "CaveRun.app"
+            BuildableName = "Monster.app"
             BlueprintName = "Monster"
             ReferencedContainer = "container:Monster.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AC076680157BDFC600A399AE"
-            BuildableName = "CaveRun.app"
+            BuildableName = "Monster.app"
             BlueprintName = "Monster"
             ReferencedContainer = "container:Monster.xcodeproj">
          </BuildableReference>

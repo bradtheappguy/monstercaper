@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  CaveRun
+//  Monster
 //
 //  Created by tang on 12-6-4.
 //  Copyright __MyCompanyName__ 2012年. All rights reserved.

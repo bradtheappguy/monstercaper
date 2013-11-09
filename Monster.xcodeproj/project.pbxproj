@@ -171,7 +171,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AC076681157BDFC600A399AE /* CaveRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaveRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC076681157BDFC600A399AE /* Monster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC076685157BDFC600A399AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AC076687157BDFC600A399AE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		AC076689157BDFC600A399AE /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -189,7 +189,7 @@
 		AC0766A3157BDFC600A399AE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
 		AC0766A5157BDFC600A399AE /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
 		AC0766A7157BDFC600A399AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
-		AC0766A8157BDFC600A399AE /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Resources/iTunesArtwork; sourceTree = "<group>"; };
+		AC0766A8157BDFC600A399AE /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = text; name = iTunesArtwork; path = Resources/iTunesArtwork; sourceTree = "<group>"; };
 		AC0766AC157BDFC600A399AE /* CCAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CCAction.h; path = libs/cocos2d/CCAction.h; sourceTree = "<group>"; };
 		AC0766AD157BDFC600A399AE /* CCAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CCAction.m; path = libs/cocos2d/CCAction.m; sourceTree = "<group>"; };
 		AC0766AF157BDFC600A399AE /* CCActionCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CCActionCamera.h; path = libs/cocos2d/CCActionCamera.h; sourceTree = "<group>"; };
@@ -495,7 +495,7 @@
 		AC076682157BDFC600A399AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC076681157BDFC600A399AE /* CaveRun.app */,
+				AC076681157BDFC600A399AE /* Monster.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -533,7 +533,8 @@
 				AC0766AA157BDFC600A399AE /* libs */,
 				AC0767E3157BDFCA00A399AE /* Supporting Files */,
 			);
-			path = CaveRun;
+			name = CaveRun;
+			path = Monster;
 			sourceTree = "<group>";
 		};
 		AC076696157BDFC600A399AE /* Resources */ = {
@@ -941,7 +942,7 @@
 			);
 			name = Monster;
 			productName = CaveRun;
-			productReference = AC076681157BDFC600A399AE /* CaveRun.app */;
+			productReference = AC076681157BDFC600A399AE /* Monster.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1199,10 +1200,10 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = CaveRun/Prefix.pch;
+				GCC_PREFIX_HEADER = Monster/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = CaveRun/Resources/Info.plist;
+				INFOPLIST_FILE = Monster/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1220,10 +1221,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = CaveRun/Prefix.pch;
+				GCC_PREFIX_HEADER = Monster/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = CaveRun/Resources/Info.plist;
+				INFOPLIST_FILE = Monster/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
