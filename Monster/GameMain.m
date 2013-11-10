@@ -57,6 +57,7 @@
         [self.gameOverSprite addChild:self.disText];
         self.disText.anchorPoint=ccp(0,0);
         self.disText.position=ccp(340,280);
+        self.disText.color = (ccColor3B){241,153,43};
         
         
         //create text to show total coins collected
@@ -64,12 +65,14 @@
         [self.gameOverSprite addChild:self.coinText];
         self.coinText.anchorPoint=ccp(0,0);
         self.coinText.position=ccp(340,250);
+        self.coinText.color = (ccColor3B){241,153,43};
         
         //level text
         self.levelText=[CCLabelTTF labelWithString:@"0" fontName:@"Headshop" fontSize:20];
         [self.gameOverSprite addChild:self.levelText];
         self.levelText.anchorPoint=ccp(0,0);
         self.levelText.position=ccp(340,220);
+        self.levelText.color = ccc3(241,153,43);
         
        //SCORE TEXT
         self.totalScoreText=[CCLabelTTF labelWithString:@"0" fontName:@"Headshop" fontSize:28];
@@ -77,6 +80,7 @@
        // self.totalScoreText.anchorPoint=ccp(0,0);
         self.totalScoreText.position=ccp(300,150);
         self.totalScoreText.color=ccc3(255,180,0);
+        
 
         
         // At end of applicationDidFinishLaunching, replace last line with the following 2 lines:
@@ -176,6 +180,7 @@
         
         self.runTimeCoinText.position=ccp(446,290);
         
+        self.runTimeCoinText.color = (ccColor3B){241,153,43};
         [self.disCMC addChild:self.runTimeCoinText];
         
         
