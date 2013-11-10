@@ -180,7 +180,7 @@
         
         self.runTimeCoinText.position=ccp(446,290);
         
-        self.runTimeCoinText.color = (ccColor3B){241,153,43};
+        self.runTimeCoinText.color = (ccColor3B){10,75,84};
         [self.disCMC addChild:self.runTimeCoinText];
         
         

@@ -1694,10 +1694,23 @@
                 <key>sourceSize</key>
                 <string>{136,163}</string>
             </dict>
+            <key>monster.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{952,489},{138,165}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{138,165}}</string>
+                <key>sourceSize</key>
+                <string>{138,165}</string>
+            </dict>
             <key>obstacle0001.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{952,489},{174,234}}</string>
+                <string>{{1090,489},{174,234}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1710,7 +1723,7 @@
             <key>obstacle0002.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1126,489},{174,234}}</string>
+                <string>{{1264,489},{174,234}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1723,7 +1736,7 @@
             <key>obstacle0003.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1300,489},{174,234}}</string>
+                <string>{{1438,489},{174,234}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1736,7 +1749,7 @@
             <key>obstacle0004.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1474,489},{174,234}}</string>
+                <string>{{1612,489},{174,234}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1749,7 +1762,7 @@
             <key>obstacle0005.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1648,489},{174,234}}</string>
+                <string>{{1786,489},{174,234}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1762,7 +1775,7 @@
             <key>obstacle_small0001.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1822,489},{134,181}}</string>
+                <string>{{1960,489},{134,181}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1775,7 +1788,7 @@
             <key>obstacle_small0002.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1956,489},{134,181}}</string>
+                <string>{{2094,489},{134,181}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1788,7 +1801,7 @@
             <key>obstacle_small0003.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2090,489},{174,234}}</string>
+                <string>{{2228,489},{174,234}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1801,7 +1814,7 @@
             <key>obstacle_small0004.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2264,489},{134,181}}</string>
+                <string>{{2402,489},{134,181}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1814,7 +1827,7 @@
             <key>obstacle_small0005.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2398,489},{134,181}}</string>
+                <string>{{2536,489},{134,181}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1827,7 +1840,7 @@
             <key>readyGo0001.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2532,489},{430,152}}</string>
+                <string>{{2670,489},{430,152}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1840,7 +1853,7 @@
             <key>readyGo0002.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2962,489},{430,152}}</string>
+                <string>{{3100,489},{430,152}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1853,7 +1866,7 @@
             <key>readyGo0003.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{3392,489},{430,152}}</string>
+                <string>{{3530,489},{430,152}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -4850,7 +4863,7 @@
             <key>size</key>
             <string>{4096,4096}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:19c59f4211e0e36f06692bd2eee66886:a3037c6e1a7d13b7c3f553dcd538e977:af9d7339a6285e36c55865034b7d2940$</string>
+            <string>$TexturePacker:SmartUpdate:cd0f60b9cc99df74d92a4488553d60ff:dec593c2b25d91072f4e0e025bf37817:af9d7339a6285e36c55865034b7d2940$</string>
             <key>textureFileName</key>
             <string>decalnew-hd.pvr.ccz</string>
         </dict>

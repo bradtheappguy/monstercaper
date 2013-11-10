@@ -59,53 +59,53 @@
         
         
         
-        self.loopStand=[CCRepeatForever actionWithAction:[CCAnimate actionWithSpriteSequence:@"idle%04d.png"
+        self.loopStand=[CCRepeatForever actionWithAction:[CCAnimate actionWithSpriteSequence:@"monster.png" //@"idle%04d.png"
                                                     
-                                                                             numFrames:16 
+                                                                             numFrames:1 //16
                                                                              delay:0.03f 
                                                                              restoreOriginalFrame:NO]];
         
 
-        self.loopJump= [CCAnimate actionWithSpriteSequence:@"jump%04d.png"     
-                                                 numFrames:8 
+        self.loopJump= [CCAnimate actionWithSpriteSequence:@"monster.png" //@"jump%04d.png"
+                                                 numFrames:1 //8
                                                  delay:0.05f 
                                                  restoreOriginalFrame:NO];
         
         
-        self.loopRun=[CCRepeatForever actionWithAction:[CCAnimate actionWithSpriteSequence:@"run%04d.png"
+        self.loopRun=[CCRepeatForever actionWithAction:[CCAnimate actionWithSpriteSequence:@"monster.png" //@"run%04d.png"
                                                    
-                                                                            numFrames:36 
+                                                                            numFrames:1 //36
                                                                             delay:0.014f 
                                                                             restoreOriginalFrame:NO]];
         
         
        
         
-        self.loopFall=[CCRepeatForever actionWithAction:[CCSequence actions:[CCAnimate actionWithSpriteSequence:@"fall%04d.png"
+        self.loopFall=[CCRepeatForever actionWithAction:[CCSequence actions:[CCAnimate actionWithSpriteSequence:@"monster.png" //@"fall%04d.png"
                                                         
-                                                                                 numFrames:6 
+                                                                                 numFrames:1 //6
                                                                                      delay:0.03f 
                                                                        restoreOriginalFrame:NO],
                        [CCCallFunc actionWithTarget:self selector:@selector(callSnd)],nil]];
         
         
-        self.loopFire=[CCRepeatForever actionWithAction:[CCAnimate actionWithSpriteSequence:@"hitFire%04d.png"
+        self.loopFire=[CCRepeatForever actionWithAction:[CCAnimate actionWithSpriteSequence:@"monster.png" //@"hitFire%04d.png"
                                                          
-                                                                                  numFrames:7 
+                                                                                  numFrames:1 //7
                                                                                       delay:0.05f 
                                                                        restoreOriginalFrame:NO]];
         
         
-        self.oneTimeHit=[CCSequence actions:[CCAnimate actionWithSpriteSequence:@"hit%04d.png"
+        self.oneTimeHit=[CCSequence actions:[CCAnimate actionWithSpriteSequence:@"monster.png" //@"hit%04d.png"
                                                                              
-                                                                                                      numFrames:24 
+                                                                                                      numFrames:1 //24
                                                                                                           delay:0.03f 
                                                                                            restoreOriginalFrame:NO],
                                                          [CCCallFunc actionWithTarget:self selector:@selector(goStand)],nil];
         
-        self.oneTimeIce=[CCSequence actions:[CCAnimate actionWithSpriteSequence:@"hitIce%04d.png"
+        self.oneTimeIce=[CCSequence actions:[CCAnimate actionWithSpriteSequence:@"monster.png" //@"hitIce%04d.png"
                                              
-                                                                      numFrames:16 
+                                                                      numFrames:1 //16
                                                                           delay:0.03f 
                                                            restoreOriginalFrame:NO],
                          [CCCallFunc actionWithTarget:self selector:@selector(goStand)],nil];

@@ -410,6 +410,9 @@
 
 -(void) addChild: (CCNode*) child
 {
+    if (!child) {
+        NSLog(@"sdf");
+    }
 	NSAssert( child != nil, @"Argument must be non-nil");
 	[self addChild:child z:child.zOrder tag:child.tag];
 }
