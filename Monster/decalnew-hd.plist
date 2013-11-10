@@ -5704,13 +5704,13 @@
             <key>format</key>
             <integer>2</integer>
             <key>realTextureFileName</key>
-            <string>decalnew-hd.pvr.ccz</string>
+            <string>decalnew.pvr.ccz</string>
             <key>size</key>
             <string>{4096,4096}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:9e8f2d5b0603932f2c2781a9ef0132c3:0892b9f2c2ca1d09299c09dea1c76eda:af9d7339a6285e36c55865034b7d2940$</string>
+            <string>$TexturePacker:SmartUpdate:1fe50eb981852e4c8b891a338b39d4a8:5cb04ee39f9b4e7e0ba0dab34432bd44:cd4c9ac9ba4b6565a77e6ec9805f25b6$</string>
             <key>textureFileName</key>
-            <string>decalnew-hd.pvr.ccz</string>
+            <string>decalnew.pvr.ccz</string>
         </dict>
     </dict>
 </plist>

@@ -38,7 +38,7 @@
         <key>dataFormat</key>
         <string>cocos2d</string>
         <key>textureFileName</key>
-        <filename>../Monster/decalnew-hd.pvr.ccz</filename>
+        <filename>../Monster/decalnew.pvr.ccz</filename>
         <key>flipPVR</key>
         <false/>
         <key>ditherType</key>
