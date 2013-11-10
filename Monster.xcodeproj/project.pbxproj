@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0951E568182EFE1F00929A4A /* decal-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0951E566182EFE1F00929A4A /* decal-hd.plist */; };
-		0951E569182EFE1F00929A4A /* decal-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 0951E567182EFE1F00929A4A /* decal-hd.pvr.ccz */; };
+		0951E5AD182F171700929A4A /* f-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0951E5AB182F171700929A4A /* f-hd.plist */; };
+		0951E5AE182F171700929A4A /* f.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 0951E5AC182F171700929A4A /* f.pvr.ccz */; };
+		0951E5B1182F1E2400929A4A /* decalnew-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0951E5AF182F1E2400929A4A /* decalnew-hd.plist */; };
+		0951E5B2182F1E2400929A4A /* decalnew-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 0951E5B0182F1E2400929A4A /* decalnew-hd.pvr.ccz */; };
 		AC076686157BDFC600A399AE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC076685157BDFC600A399AE /* QuartzCore.framework */; };
 		AC076688157BDFC600A399AE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC076687157BDFC600A399AE /* OpenGLES.framework */; };
 		AC07668A157BDFC600A399AE /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC076689157BDFC600A399AE /* OpenAL.framework */; };
@@ -137,10 +139,6 @@
 		AC4BB64615848C5D00B50B00 /* GameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = AC4BB64215848C5D00B50B00 /* GameOver.png */; };
 		AC4BB64715848C5D00B50B00 /* GameStartPage-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = AC4BB64315848C5D00B50B00 /* GameStartPage-hd.png */; };
 		AC4BB64815848C5D00B50B00 /* GameStartPage.png in Resources */ = {isa = PBXBuildFile; fileRef = AC4BB64415848C5D00B50B00 /* GameStartPage.png */; };
-		AC71073F15A9E089001889C7 /* clips-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC71073315A9E089001889C7 /* clips-hd.plist */; };
-		AC71074015A9E089001889C7 /* clips-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = AC71073415A9E089001889C7 /* clips-hd.pvr.ccz */; };
-		AC71074115A9E089001889C7 /* clips.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC71073515A9E089001889C7 /* clips.plist */; };
-		AC71074215A9E089001889C7 /* clips.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = AC71073615A9E089001889C7 /* clips.pvr.ccz */; };
 		AC71074715A9E089001889C7 /* readyGo-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC71073B15A9E089001889C7 /* readyGo-hd.plist */; };
 		AC71074815A9E089001889C7 /* readyGo-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = AC71073C15A9E089001889C7 /* readyGo-hd.pvr.ccz */; };
 		AC71074915A9E089001889C7 /* readyGo.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC71073D15A9E089001889C7 /* readyGo.plist */; };
@@ -169,8 +167,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0951E566182EFE1F00929A4A /* decal-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "decal-hd.plist"; path = "Monster/decal-hd.plist"; sourceTree = "<group>"; };
-		0951E567182EFE1F00929A4A /* decal-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; name = "decal-hd.pvr.ccz"; path = "Monster/decal-hd.pvr.ccz"; sourceTree = "<group>"; };
+		0951E5AB182F171700929A4A /* f-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "f-hd.plist"; path = "Monster/f-hd.plist"; sourceTree = "<group>"; };
+		0951E5AC182F171700929A4A /* f.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; name = f.pvr.ccz; path = Monster/f.pvr.ccz; sourceTree = "<group>"; };
+		0951E5AF182F1E2400929A4A /* decalnew-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "decalnew-hd.plist"; path = "Monster/decalnew-hd.plist"; sourceTree = "<group>"; };
+		0951E5B0182F1E2400929A4A /* decalnew-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; name = "decalnew-hd.pvr.ccz"; path = "Monster/decalnew-hd.pvr.ccz"; sourceTree = "<group>"; };
 		AC076681157BDFC600A399AE /* Monster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC076685157BDFC600A399AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AC076687157BDFC600A399AE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -423,10 +423,6 @@
 		AC4BB64215848C5D00B50B00 /* GameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GameOver.png; path = imgs/GameOver.png; sourceTree = "<group>"; };
 		AC4BB64315848C5D00B50B00 /* GameStartPage-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GameStartPage-hd.png"; path = "imgs/GameStartPage-hd.png"; sourceTree = "<group>"; };
 		AC4BB64415848C5D00B50B00 /* GameStartPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GameStartPage.png; path = imgs/GameStartPage.png; sourceTree = "<group>"; };
-		AC71073315A9E089001889C7 /* clips-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "clips-hd.plist"; path = "spritesheets/clips-hd.plist"; sourceTree = "<group>"; };
-		AC71073415A9E089001889C7 /* clips-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; name = "clips-hd.pvr.ccz"; path = "spritesheets/clips-hd.pvr.ccz"; sourceTree = "<group>"; };
-		AC71073515A9E089001889C7 /* clips.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = clips.plist; path = spritesheets/clips.plist; sourceTree = "<group>"; };
-		AC71073615A9E089001889C7 /* clips.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; name = clips.pvr.ccz; path = spritesheets/clips.pvr.ccz; sourceTree = "<group>"; };
 		AC71073B15A9E089001889C7 /* readyGo-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "readyGo-hd.plist"; path = "spritesheets/readyGo-hd.plist"; sourceTree = "<group>"; };
 		AC71073C15A9E089001889C7 /* readyGo-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; name = "readyGo-hd.pvr.ccz"; path = "spritesheets/readyGo-hd.pvr.ccz"; sourceTree = "<group>"; };
 		AC71073D15A9E089001889C7 /* readyGo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = readyGo.plist; path = spritesheets/readyGo.plist; sourceTree = "<group>"; };
@@ -478,8 +474,10 @@
 		0951E559182EF76500929A4A /* test-sprite */ = {
 			isa = PBXGroup;
 			children = (
-				0951E566182EFE1F00929A4A /* decal-hd.plist */,
-				0951E567182EFE1F00929A4A /* decal-hd.pvr.ccz */,
+				0951E5AF182F1E2400929A4A /* decalnew-hd.plist */,
+				0951E5B0182F1E2400929A4A /* decalnew-hd.pvr.ccz */,
+				0951E5AB182F171700929A4A /* f-hd.plist */,
+				0951E5AC182F171700929A4A /* f.pvr.ccz */,
 			);
 			name = "test-sprite";
 			sourceTree = "<group>";
@@ -546,10 +544,6 @@
 		AC076696157BDFC600A399AE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AC71073315A9E089001889C7 /* clips-hd.plist */,
-				AC71073415A9E089001889C7 /* clips-hd.pvr.ccz */,
-				AC71073515A9E089001889C7 /* clips.plist */,
-				AC71073615A9E089001889C7 /* clips.pvr.ccz */,
 				AC71073B15A9E089001889C7 /* readyGo-hd.plist */,
 				AC71073C15A9E089001889C7 /* readyGo-hd.pvr.ccz */,
 				AC71073D15A9E089001889C7 /* readyGo.plist */,
@@ -995,12 +989,13 @@
 				AC0766A9157BDFC600A399AE /* iTunesArtwork in Resources */,
 				AC27A79315808208002CE374 /* daylight.png in Resources */,
 				AC4BB64515848C5D00B50B00 /* GameOver-hd.png in Resources */,
+				0951E5AE182F171700929A4A /* f.pvr.ccz in Resources */,
 				AC4BB64615848C5D00B50B00 /* GameOver.png in Resources */,
 				AC4BB64715848C5D00B50B00 /* GameStartPage-hd.png in Resources */,
 				AC4BB64815848C5D00B50B00 /* GameStartPage.png in Resources */,
 				ACF31FDD1587605800EC7F1E /* coin.wav in Resources */,
 				ACF31FDE1587605800EC7F1E /* crash.wav in Resources */,
-				0951E569182EFE1F00929A4A /* decal-hd.pvr.ccz in Resources */,
+				0951E5AD182F171700929A4A /* f-hd.plist in Resources */,
 				ACF31FDF1587605800EC7F1E /* fall.wav in Resources */,
 				ACF31FE01587605800EC7F1E /* hit.wav in Resources */,
 				ACF31FE11587605800EC7F1E /* jump.wav in Resources */,
@@ -1009,7 +1004,6 @@
 				ACF31FE31587605800EC7F1E /* ouch.wav in Resources */,
 				ACF31FE41587605800EC7F1E /* quake.wav in Resources */,
 				E3A88BED17F2CA9F0039EB4E /* bgb-hd.png in Resources */,
-				0951E568182EFE1F00929A4A /* decal-hd.plist in Resources */,
 				ACF31FE51587605800EC7F1E /* slip.wav in Resources */,
 				ACF31FE61587605800EC7F1E /* step.wav in Resources */,
 				E3A88BE917F2CA5C0039EB4E /* bgm.mp3 in Resources */,
@@ -1018,11 +1012,9 @@
 				AC2C85E315A970290050208F /* MainMenu.png in Resources */,
 				AC2C85E615A972D80050208F /* flash-hd.png in Resources */,
 				AC2C85E715A972D80050208F /* flash.png in Resources */,
-				AC71073F15A9E089001889C7 /* clips-hd.plist in Resources */,
-				AC71074015A9E089001889C7 /* clips-hd.pvr.ccz in Resources */,
 				E3A88BD917F2C2DC0039EB4E /* background.jpg in Resources */,
-				AC71074115A9E089001889C7 /* clips.plist in Resources */,
-				AC71074215A9E089001889C7 /* clips.pvr.ccz in Resources */,
+				0951E5B1182F1E2400929A4A /* decalnew-hd.plist in Resources */,
+				0951E5B2182F1E2400929A4A /* decalnew-hd.pvr.ccz in Resources */,
 				E3A8FAA917F2CDFE00A3CA81 /* daylight-hd.png in Resources */,
 				AC71074715A9E089001889C7 /* readyGo-hd.plist in Resources */,
 				AC71074815A9E089001889C7 /* readyGo-hd.pvr.ccz in Resources */,

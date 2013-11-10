@@ -181,7 +181,7 @@
     
     int maxNumOfOb=1;
     
-    CCSprite * left=[CCSprite spriteWithSpriteFrameName:@"d0.png"];
+    CCSprite * left=[CCSprite spriteWithSpriteFrameName:@"f0.png"];
     left.anchorPoint=ccp(0,1);
     [mc addChild:left];
     for(int i=0;i<numSpriteToCreate;i++){
@@ -264,7 +264,7 @@
         }
     }
     
-    CCSprite * right=[CCSprite spriteWithSpriteFrameName:@"d6.png"];
+    CCSprite * right=[CCSprite spriteWithSpriteFrameName:@"f4.png"];
     right.anchorPoint=ccp(0,1);
     right.position=ccp(leftWidth+numSpriteToCreate*midWidth,0);
     
@@ -514,8 +514,8 @@ return repf;
     NSString *fn;
     
     for(int i=0;i<cnt;i++){
-        
-        fn=[NSString stringWithFormat:@"d%i.png",(i%5)+1];
+        int n = (i%4)+1;
+        fn=[NSString stringWithFormat:@"f%i.png",n];
         tempPF=[CCSprite spriteWithSpriteFrameName:fn];
        
         [self.pool addObject:[CCSprite spriteWithSpriteFrameName:fn]];
