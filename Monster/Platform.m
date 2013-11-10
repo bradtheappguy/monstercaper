@@ -246,7 +246,7 @@
                 id loopCoin= [CCRepeatForever actionWithAction:[CCAnimate actionWithSpriteSequence:@"coin%04d.png"
                                                             
                                                                                      numFrames:36 
-                                                                                         delay:0.014f 
+                                                                                         delay:0.10f
                                                                           restoreOriginalFrame:NO]];            
                 
                 CCSprite *coin=[CCSprite node];

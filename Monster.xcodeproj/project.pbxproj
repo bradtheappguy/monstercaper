@@ -12,6 +12,7 @@
 		0951E5B1182F1E2400929A4A /* decalnew-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0951E5AF182F1E2400929A4A /* decalnew-hd.plist */; };
 		0951E5B7182F3E9900929A4A /* decalnew.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 0951E5B6182F3E9900929A4A /* decalnew.pvr.ccz */; };
 		0951E5B9182F3F5000929A4A /* Headshop.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0951E5B8182F3EF400929A4A /* Headshop.ttf */; };
+		0951E5BB182F46A600929A4A /* decalnew-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 0951E5BA182F46A600929A4A /* decalnew-hd.pvr.ccz */; };
 		AC076686157BDFC600A399AE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC076685157BDFC600A399AE /* QuartzCore.framework */; };
 		AC076688157BDFC600A399AE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC076687157BDFC600A399AE /* OpenGLES.framework */; };
 		AC07668A157BDFC600A399AE /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC076689157BDFC600A399AE /* OpenAL.framework */; };
@@ -173,6 +174,7 @@
 		0951E5AF182F1E2400929A4A /* decalnew-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "decalnew-hd.plist"; path = "Monster/decalnew-hd.plist"; sourceTree = "<group>"; };
 		0951E5B6182F3E9900929A4A /* decalnew.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; name = decalnew.pvr.ccz; path = Monster/decalnew.pvr.ccz; sourceTree = "<group>"; };
 		0951E5B8182F3EF400929A4A /* Headshop.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Headshop.ttf; sourceTree = "<group>"; };
+		0951E5BA182F46A600929A4A /* decalnew-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; name = "decalnew-hd.pvr.ccz"; path = "Monster/decalnew-hd.pvr.ccz"; sourceTree = "<group>"; };
 		AC076681157BDFC600A399AE /* Monster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC076685157BDFC600A399AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AC076687157BDFC600A399AE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -476,6 +478,7 @@
 		0951E559182EF76500929A4A /* test-sprite */ = {
 			isa = PBXGroup;
 			children = (
+				0951E5BA182F46A600929A4A /* decalnew-hd.pvr.ccz */,
 				0951E5B6182F3E9900929A4A /* decalnew.pvr.ccz */,
 				0951E5AF182F1E2400929A4A /* decalnew-hd.plist */,
 				0951E5AB182F171700929A4A /* f-hd.plist */,
@@ -1014,6 +1017,7 @@
 				ACF31FE71587605800EC7F1E /* stepWet.wav in Resources */,
 				AC2C85E215A970290050208F /* MainMenu-hd.png in Resources */,
 				AC2C85E315A970290050208F /* MainMenu.png in Resources */,
+				0951E5BB182F46A600929A4A /* decalnew-hd.pvr.ccz in Resources */,
 				0951E5B7182F3E9900929A4A /* decalnew.pvr.ccz in Resources */,
 				AC2C85E615A972D80050208F /* flash-hd.png in Resources */,
 				AC2C85E715A972D80050208F /* flash.png in Resources */,
