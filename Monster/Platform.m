@@ -205,21 +205,21 @@
                 int rn=arc4random()%10;
                 if(rn>=7&&rn<=9){
                    typeStr =@"stone";
-                    ob=[CCSprite spriteWithSpriteFrameName:@"obstacle_small0001.png"];
+                    ob=[CCSprite spriteWithSpriteFrameName:@"obstacle0001.png"];
                 } 
                 if(rn>=4&&rn<=6){
                     typeStr =@"fire";
-                    ob=[CCSprite spriteWithSpriteFrameName:@"obstacle_small0003.png"];
+                    ob=[CCSprite spriteWithSpriteFrameName:@"obstacle0003.png"];
                 }
                 
                 if(rn>=1&&rn<=3){
                     typeStr =@"ice";
-                    ob=[CCSprite spriteWithSpriteFrameName:@"obstacle_small0005.png"];
+                    ob=[CCSprite spriteWithSpriteFrameName:@"obstacle0005.png"];
                 }
                 
                 if(rn==0){
                     typeStr =@"no";
-                    ob=[CCSprite spriteWithSpriteFrameName:@"obstacle_small0004.png"];
+                    ob=[CCSprite spriteWithSpriteFrameName:@"obstacle0004.png"];
                 }
                 
                 

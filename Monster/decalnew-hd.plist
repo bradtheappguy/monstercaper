@@ -2139,20 +2139,20 @@
             <key>obstacle_small0003.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{3586,489},{134,181}}</string>
+                <string>{{3586,489},{174,234}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{134,181}}</string>
+                <string>{{0,0},{174,234}}</string>
                 <key>sourceSize</key>
-                <string>{134,181}</string>
+                <string>{174,234}</string>
             </dict>
             <key>obstacle_small0004.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{3720,489},{134,181}}</string>
+                <string>{{3760,489},{134,181}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2165,7 +2165,7 @@
             <key>obstacle_small0005.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{3854,489},{134,181}}</string>
+                <string>{{3894,489},{134,181}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -5704,13 +5704,13 @@
             <key>format</key>
             <integer>2</integer>
             <key>realTextureFileName</key>
-            <string>decalnew.pvr.ccz</string>
+            <string>decalnew-hd.pvr.ccz</string>
             <key>size</key>
             <string>{4096,4096}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:29a1cabf9b126b6d6ecf028f39e29955:be213b8441df75e890a8d2c04cab1fc2:cd4c9ac9ba4b6565a77e6ec9805f25b6$</string>
+            <string>$TexturePacker:SmartUpdate:9e8f2d5b0603932f2c2781a9ef0132c3:0892b9f2c2ca1d09299c09dea1c76eda:af9d7339a6285e36c55865034b7d2940$</string>
             <key>textureFileName</key>
-            <string>decalnew.pvr.ccz</string>
+            <string>decalnew-hd.pvr.ccz</string>
         </dict>
     </dict>
 </plist>
