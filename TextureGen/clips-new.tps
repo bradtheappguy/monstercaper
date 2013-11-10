@@ -38,7 +38,7 @@
         <key>dataFormat</key>
         <string>cocos2d</string>
         <key>textureFileName</key>
-        <filename>../Monster/decalnew.pvr.ccz</filename>
+        <filename>../Monster/decalnew-hd.pvr.ccz</filename>
         <key>flipPVR</key>
         <false/>
         <key>ditherType</key>
@@ -70,9 +70,9 @@
         <key>maxTextureSize</key>
         <QSize>
             <key>width</key>
-            <int>8192</int>
+            <int>4096</int>
             <key>height</key>
-            <int>8192</int>
+            <int>4096</int>
         </QSize>
         <key>fixedTextureSize</key>
         <QSize>
