@@ -53,26 +53,26 @@
         
         
          
-        self.disText=[CCLabelTTF labelWithString:@"0" fontName:@"JFRockSolid" fontSize:20];
+        self.disText=[CCLabelTTF labelWithString:@"0" fontName:@"Headshop" fontSize:20];
         [self.gameOverSprite addChild:self.disText];
         self.disText.anchorPoint=ccp(0,0);
         self.disText.position=ccp(340,280);
         
         
         //create text to show total coins collected
-        self.coinText=[CCLabelTTF labelWithString:@"0" fontName:@"JFRockSolid" fontSize:20];
+        self.coinText=[CCLabelTTF labelWithString:@"0" fontName:@"Headshop" fontSize:20];
         [self.gameOverSprite addChild:self.coinText];
         self.coinText.anchorPoint=ccp(0,0);
         self.coinText.position=ccp(340,250);
         
         //level text
-        self.levelText=[CCLabelTTF labelWithString:@"0" fontName:@"JFRockSolid" fontSize:20];
+        self.levelText=[CCLabelTTF labelWithString:@"0" fontName:@"Headshop" fontSize:20];
         [self.gameOverSprite addChild:self.levelText];
         self.levelText.anchorPoint=ccp(0,0);
         self.levelText.position=ccp(340,220);
         
        //SCORE TEXT
-        self.totalScoreText=[CCLabelTTF labelWithString:@"0" fontName:@"JFRockSolid" fontSize:28];
+        self.totalScoreText=[CCLabelTTF labelWithString:@"0" fontName:@"Headshop" fontSize:28];
         [self.gameOverSprite addChild:self.totalScoreText];
        // self.totalScoreText.anchorPoint=ccp(0,0);
         self.totalScoreText.position=ccp(300,150);
@@ -170,7 +170,7 @@
 //        [self.disCMC addChild:self.runTimeDisText];
         
         
-        self.runTimeCoinText=[CCLabelTTF labelWithString:@"0" fontName:@"JFRockSolid" fontSize:22];
+        self.runTimeCoinText=[CCLabelTTF labelWithString:@"0" fontName:@"Headshop" fontSize:22];
         
         self.runTimeCoinText.anchorPoint=ccp(1,0);
         
