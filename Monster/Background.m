@@ -18,9 +18,15 @@
 
 @synthesize daylight;
 @synthesize bgImgs;
+
+static CGFloat width = 0;
+
 -(id) init
 {
     if( (self=[super init])) {
+        
+        width = [[UIScreen mainScreen] bounds].size.height;
+        
         bgImgs=[[NSMutableArray alloc]init];
         staticBG=[CCSprite spriteWithFile:@"background.jpg"];
         
@@ -34,7 +40,7 @@
         [self.bgImgs addObject:bgb];
         bgb=[CCSprite spriteWithFile:@"bgb.png"];
         bgb.anchorPoint=ccp(0,0);
-        bgb.position=ccp(479,0);
+        bgb.position=ccp(width-1,0);
         [bgbLayer addChild:bgb];
         [self.bgImgs addObject:bgb];
         
@@ -42,7 +48,7 @@
         
         daylight=[CCSprite spriteWithFile:@"daylight.png"];
         daylight.anchorPoint=ccp(0,0);
-        daylight.position=ccp(300,-80);
+        daylight.position=ccp(width-180,-80);
         
         
         bgf=[CCSprite spriteWithFile:@"bgf.png"];
@@ -51,7 +57,7 @@
         [self.bgImgs addObject:bgf];
         bgf=[CCSprite spriteWithFile:@"bgf.png"];
         bgf.anchorPoint=ccp(0,0);
-        bgf.position=ccp(479,0);
+        bgf.position=ccp(width-1,0);
         
         [self.bgImgs addObject:bgf];
         [bgfLayer addChild:bgf];
@@ -61,7 +67,7 @@
         
         staticBG.anchorPoint=ccp(0,0);
         
-        bgbLayer.position=ccp(-300,0);
+        bgbLayer.position=ccp(-(width-180),0);
         
         [self addChild:staticBG];
         [self addChild:daylight];
@@ -96,11 +102,11 @@
     
     bgfLayer.position=ccp(bgfLayer.position.x-speed*2,bgfLayer.position.y);
     
-    if(bgbLayer.position.x<-480){
+    if(bgbLayer.position.x<-width){
         bgbLayer.position=ccp(0,0);
     }
     
-    if(bgfLayer.position.x<-480){
+    if(bgfLayer.position.x<-width){
         bgfLayer.position=ccp(0,0);
     }
 }
