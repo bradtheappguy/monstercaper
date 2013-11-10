@@ -475,119 +475,119 @@
             <key>coin_big0001.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1188,0},{51,71}}</string>
+                <string>{{1188,0},{51,70}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{51,71}}</string>
+                <string>{{0,0},{51,70}}</string>
                 <key>sourceSize</key>
-                <string>{51,71}</string>
+                <string>{51,70}</string>
             </dict>
             <key>coin_big0002.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1239,0},{51,71}}</string>
+                <string>{{1239,0},{51,70}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{51,71}}</string>
+                <string>{{0,0},{51,70}}</string>
                 <key>sourceSize</key>
-                <string>{51,71}</string>
+                <string>{51,70}</string>
             </dict>
             <key>coin_big0003.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1290,0},{51,71}}</string>
+                <string>{{1290,0},{51,70}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{51,71}}</string>
+                <string>{{0,0},{51,70}}</string>
                 <key>sourceSize</key>
-                <string>{51,71}</string>
+                <string>{51,70}</string>
             </dict>
             <key>coin_big0004.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1341,0},{51,71}}</string>
+                <string>{{1341,0},{51,70}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{51,71}}</string>
+                <string>{{0,0},{51,70}}</string>
                 <key>sourceSize</key>
-                <string>{51,71}</string>
+                <string>{51,70}</string>
             </dict>
             <key>coin_big0005.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1392,0},{51,71}}</string>
+                <string>{{1392,0},{51,70}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{51,71}}</string>
+                <string>{{0,0},{51,70}}</string>
                 <key>sourceSize</key>
-                <string>{51,71}</string>
+                <string>{51,70}</string>
             </dict>
             <key>coin_big0006.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1443,0},{51,71}}</string>
+                <string>{{1443,0},{51,70}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{51,71}}</string>
+                <string>{{0,0},{51,70}}</string>
                 <key>sourceSize</key>
-                <string>{51,71}</string>
+                <string>{51,70}</string>
             </dict>
             <key>coin_big0007.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1494,0},{51,71}}</string>
+                <string>{{1494,0},{51,70}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{51,71}}</string>
+                <string>{{0,0},{51,70}}</string>
                 <key>sourceSize</key>
-                <string>{51,71}</string>
+                <string>{51,70}</string>
             </dict>
             <key>coin_big0008.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1545,0},{51,71}}</string>
+                <string>{{1545,0},{51,70}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{51,71}}</string>
+                <string>{{0,0},{51,70}}</string>
                 <key>sourceSize</key>
-                <string>{51,71}</string>
+                <string>{51,70}</string>
             </dict>
             <key>coin_big0009.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1596,0},{51,71}}</string>
+                <string>{{1596,0},{51,70}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{51,71}}</string>
+                <string>{{0,0},{51,70}}</string>
                 <key>sourceSize</key>
-                <string>{51,71}</string>
+                <string>{51,70}</string>
             </dict>
             <key>coin_big0010.png</key>
             <dict>
@@ -5708,7 +5708,7 @@
             <key>size</key>
             <string>{4096,4096}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:374f1f16446f82e31977a30a03011182:a01b824a503ec3c8e39a0ea12dac8e53:af9d7339a6285e36c55865034b7d2940$</string>
+            <string>$TexturePacker:SmartUpdate:db5f7c3dc9c52518ec3b8980dff9759b:ffac592ed6e5f9c9f71a427fa5adb063:af9d7339a6285e36c55865034b7d2940$</string>
             <key>textureFileName</key>
             <string>decalnew-hd.pvr.ccz</string>
         </dict>

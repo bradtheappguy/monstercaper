@@ -404,6 +404,7 @@ CGFloat	__ccContentScaleFactor = 1;
 
 - (void) setDeviceOrientation:(ccDeviceOrientation) orientation
 {
+    return;
 	if( deviceOrientation_ != orientation ) {
 		deviceOrientation_ = orientation;
 		switch( deviceOrientation_) {

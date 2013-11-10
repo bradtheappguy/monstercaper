@@ -41,6 +41,7 @@
 }
 - (void) applicationDidFinishLaunching:(UIApplication*)application
 {
+    
 	// Init the window
 	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	
@@ -115,6 +116,7 @@
     
 	// Run the intro Scene
 	[[CCDirector sharedDirector] runWithScene: [MainMenu scene]];
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
 }
 
 
@@ -124,6 +126,7 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
 	[[CCDirector sharedDirector] resume];
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
 }
 
 - (void)applicationDidReceiveMemoryWarning:(UIApplication *)application {

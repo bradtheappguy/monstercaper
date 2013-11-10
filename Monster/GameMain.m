@@ -152,7 +152,7 @@
         
         self.loopCoinBig=[CCRepeatForever actionWithAction:[CCAnimate actionWithSpriteSequence:@"coin_big%04d.png"
                                                             
-                                                                                     numFrames:36
+                                                                                     numFrames:9
                                                                                          delay:0.05f 
                                                                           restoreOriginalFrame:NO]];
         
