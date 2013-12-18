@@ -103,7 +103,7 @@
     }
     
     //if old pf is out of the stage , create new
-    
+  
     if(self.lastPF.position.x+self.lastWid<480){
         int cn=(int)(500+arc4random()%800);
         int _y=(int)(30+arc4random()%200);

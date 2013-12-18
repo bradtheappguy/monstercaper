@@ -48,9 +48,9 @@
         
         //create game over sprite
         self.readyGoClipIsFinished=NO;
-        self.gameOverSprite=[CCSprite spriteWithFile:@"GameOver.png"];
+        self.gameOverSprite=[CCSprite spriteWithFile:@"GameOver-568.png"];
         self.gameOverSprite.visible=NO;
-        
+    
         
          
         self.disText=[CCLabelTTF labelWithString:@"0" fontName:@"Headshop" fontSize:20];
@@ -162,7 +162,8 @@
         
         self.coinBigClip=[CCSprite node];
         self.coinBigClip.anchorPoint=ccp(0,0);
-        self.coinBigClip.position=ccp(450,280);
+        CGFloat offset = self.contentSize.width - 30;
+        self.coinBigClip.position=ccp(offset,280);
         [self.disCMC addChild:self.coinBigClip];
         
         [self.coinBigClip runAction:self.loopCoinBig];
@@ -177,8 +178,9 @@
         self.runTimeCoinText=[CCLabelTTF labelWithString:@"0" fontName:@"Headshop" fontSize:22];
         
         self.runTimeCoinText.anchorPoint=ccp(1,0);
-        
-        self.runTimeCoinText.position=ccp(446,290);
+    
+        offset = self.contentSize.width - 34;
+        self.runTimeCoinText.position=ccp(offset,290);
         
         self.runTimeCoinText.color = (ccColor3B){10,75,84};
         [self.disCMC addChild:self.runTimeCoinText];

@@ -28,17 +28,20 @@ static CGFloat width = 0;
         width = [[UIScreen mainScreen] bounds].size.height;
         
         bgImgs=[[NSMutableArray alloc]init];
-        staticBG=[CCSprite spriteWithFile:@"background.jpg"];
+        NSString *background = (width > 480)?@"background-568.jpg":@"background.jpg";
+        staticBG=[CCSprite spriteWithFile:background];
         
         [self.bgImgs addObject:staticBG];
         bgbLayer=[CCLayer node];
         bgfLayer=[CCLayer node];
-        
-        bgb=[CCSprite spriteWithFile:@"bgb.png"];
+      
+      
+        NSString *background2 = (width > 480)?@"bgb-568.png":@"bgb.png";
+        bgb=[CCSprite spriteWithFile:background2];
         bgb.anchorPoint=ccp(0,0);
         [bgbLayer addChild:bgb];
         [self.bgImgs addObject:bgb];
-        bgb=[CCSprite spriteWithFile:@"bgb.png"];
+        bgb=[CCSprite spriteWithFile:background2];
         bgb.anchorPoint=ccp(0,0);
         bgb.position=ccp(width-1,0);
         [bgbLayer addChild:bgb];
@@ -50,12 +53,13 @@ static CGFloat width = 0;
         daylight.anchorPoint=ccp(0,0);
         daylight.position=ccp(width-180,-80);
         
-        
-        bgf=[CCSprite spriteWithFile:@"bgf.png"];
+      
+      NSString *bgfimg = (width > 480)?@"bgf-568.png":@"bgf.png";
+        bgf=[CCSprite spriteWithFile:bgfimg];
         bgf.anchorPoint=ccp(0,0);
         [bgfLayer addChild:bgf];
         [self.bgImgs addObject:bgf];
-        bgf=[CCSprite spriteWithFile:@"bgf.png"];
+        bgf=[CCSprite spriteWithFile:bgfimg];
         bgf.anchorPoint=ccp(0,0);
         bgf.position=ccp(width-1,0);
         
