@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>83AB9AD4-35FE-464C-9643-B12CF98997CB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Monster</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B389ACD1-49AE-4DB4-A8E6-73F7779DEDCF</key>
+		<string>ssh://github.com/bradsmithinc/monstercaper.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Monster.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B389ACD1-49AE-4DB4-A8E6-73F7779DEDCF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/bradsmithinc/monstercaper.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B389ACD1-49AE-4DB4-A8E6-73F7779DEDCF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B389ACD1-49AE-4DB4-A8E6-73F7779DEDCF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>monstercaper</string>
+		</dict>
+	</array>
+</dict>
+</plist>

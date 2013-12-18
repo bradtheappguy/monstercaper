@@ -106,9 +106,6 @@
 		AC0767A8157BDFC900A399AE /* CDOpenALSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0767A7157BDFC900A399AE /* CDOpenALSupport.m */; };
 		AC0767AB157BDFC900A399AE /* CocosDenshion.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0767AA157BDFC900A399AE /* CocosDenshion.m */; };
 		AC0767AE157BDFC900A399AE /* SimpleAudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0767AD157BDFC900A399AE /* SimpleAudioEngine.m */; };
-		AC0767B3157BDFC900A399AE /* CLScoreServerPost.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0767B2157BDFC900A399AE /* CLScoreServerPost.m */; };
-		AC0767B6157BDFC900A399AE /* CLScoreServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0767B5157BDFC900A399AE /* CLScoreServerRequest.m */; };
-		AC0767B9157BDFC900A399AE /* cocoslive.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0767B8157BDFC900A399AE /* cocoslive.m */; };
 		AC0767BE157BDFC900A399AE /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0767BD157BDFC900A399AE /* CDataScanner.m */; };
 		AC0767C2157BDFC900A399AE /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0767C1157BDFC900A399AE /* CDataScanner_Extensions.m */; };
 		AC0767C5157BDFC900A399AE /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0767C4157BDFC900A399AE /* NSDictionary_JSONExtensions.m */; };
@@ -358,12 +355,6 @@
 		AC0767AC157BDFC900A399AE /* SimpleAudioEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SimpleAudioEngine.h; path = libs/CocosDenshion/SimpleAudioEngine.h; sourceTree = "<group>"; };
 		AC0767AD157BDFC900A399AE /* SimpleAudioEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SimpleAudioEngine.m; path = libs/CocosDenshion/SimpleAudioEngine.m; sourceTree = "<group>"; };
 		AC0767AF157BDFC900A399AE /* LICENSE_CocosDenshion.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE_CocosDenshion.txt; path = libs/LICENSE_CocosDenshion.txt; sourceTree = "<group>"; };
-		AC0767B1157BDFC900A399AE /* CLScoreServerPost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CLScoreServerPost.h; path = libs/cocoslive/CLScoreServerPost.h; sourceTree = "<group>"; };
-		AC0767B2157BDFC900A399AE /* CLScoreServerPost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CLScoreServerPost.m; path = libs/cocoslive/CLScoreServerPost.m; sourceTree = "<group>"; };
-		AC0767B4157BDFC900A399AE /* CLScoreServerRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CLScoreServerRequest.h; path = libs/cocoslive/CLScoreServerRequest.h; sourceTree = "<group>"; };
-		AC0767B5157BDFC900A399AE /* CLScoreServerRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CLScoreServerRequest.m; path = libs/cocoslive/CLScoreServerRequest.m; sourceTree = "<group>"; };
-		AC0767B7157BDFC900A399AE /* cocoslive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cocoslive.h; path = libs/cocoslive/cocoslive.h; sourceTree = "<group>"; };
-		AC0767B8157BDFC900A399AE /* cocoslive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = cocoslive.m; path = libs/cocoslive/cocoslive.m; sourceTree = "<group>"; };
 		AC0767BA157BDFC900A399AE /* LICENSE_TouchJSON.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE_TouchJSON.txt; path = libs/LICENSE_TouchJSON.txt; sourceTree = "<group>"; };
 		AC0767BC157BDFC900A399AE /* CDataScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CDataScanner.h; path = libs/TouchJSON/CDataScanner.h; sourceTree = "<group>"; };
 		AC0767BD157BDFC900A399AE /* CDataScanner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDataScanner.m; path = libs/TouchJSON/CDataScanner.m; sourceTree = "<group>"; };
@@ -569,7 +560,6 @@
 				AC0767E2157BDFCA00A399AE /* LICENSE_FontLabel.txt */,
 				AC0766AB157BDFC600A399AE /* cocos2d */,
 				AC0767A1157BDFC900A399AE /* CocosDenshion */,
-				AC0767B0157BDFC900A399AE /* cocoslive */,
 				AC0767BB157BDFC900A399AE /* TouchJSON */,
 				AC0767D1157BDFCA00A399AE /* FontLabel */,
 			);
@@ -797,19 +787,6 @@
 				AC0767AD157BDFC900A399AE /* SimpleAudioEngine.m */,
 			);
 			name = CocosDenshion;
-			sourceTree = "<group>";
-		};
-		AC0767B0157BDFC900A399AE /* cocoslive */ = {
-			isa = PBXGroup;
-			children = (
-				AC0767B1157BDFC900A399AE /* CLScoreServerPost.h */,
-				AC0767B2157BDFC900A399AE /* CLScoreServerPost.m */,
-				AC0767B4157BDFC900A399AE /* CLScoreServerRequest.h */,
-				AC0767B5157BDFC900A399AE /* CLScoreServerRequest.m */,
-				AC0767B7157BDFC900A399AE /* cocoslive.h */,
-				AC0767B8157BDFC900A399AE /* cocoslive.m */,
-			);
-			name = cocoslive;
 			sourceTree = "<group>";
 		};
 		AC0767BB157BDFC900A399AE /* TouchJSON */ = {
@@ -1091,9 +1068,6 @@
 				AC0767A8157BDFC900A399AE /* CDOpenALSupport.m in Sources */,
 				AC0767AB157BDFC900A399AE /* CocosDenshion.m in Sources */,
 				AC0767AE157BDFC900A399AE /* SimpleAudioEngine.m in Sources */,
-				AC0767B3157BDFC900A399AE /* CLScoreServerPost.m in Sources */,
-				AC0767B6157BDFC900A399AE /* CLScoreServerRequest.m in Sources */,
-				AC0767B9157BDFC900A399AE /* cocoslive.m in Sources */,
 				AC0767BE157BDFC900A399AE /* CDataScanner.m in Sources */,
 				AC0767C2157BDFC900A399AE /* CDataScanner_Extensions.m in Sources */,
 				AC0767C5157BDFC900A399AE /* NSDictionary_JSONExtensions.m in Sources */,
