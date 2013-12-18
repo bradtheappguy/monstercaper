@@ -48,7 +48,10 @@
         
         //create game over sprite
         self.readyGoClipIsFinished=NO;
-        self.gameOverSprite=[CCSprite spriteWithFile:@"GameOver-568.png"];
+    
+        CGFloat width = [[UIScreen mainScreen] bounds].size.height;
+        NSString *go = (width > 480)?@"GameOver-568.png":@"GameOver.png";
+        self.gameOverSprite=[CCSprite spriteWithFile:go];
         self.gameOverSprite.visible=NO;
     
         
