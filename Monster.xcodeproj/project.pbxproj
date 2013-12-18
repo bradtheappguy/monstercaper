@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		0951E5AD182F171700929A4A /* f-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0951E5AB182F171700929A4A /* f-hd.plist */; };
 		0951E5AE182F171700929A4A /* f.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 0951E5AC182F171700929A4A /* f.pvr.ccz */; };
-		0951E5B1182F1E2400929A4A /* decalnew-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0951E5AF182F1E2400929A4A /* decalnew-hd.plist */; };
 		0951E5B9182F3F5000929A4A /* Headshop.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0951E5B8182F3EF400929A4A /* Headshop.ttf */; };
-		0951E5BB182F46A600929A4A /* decalnew-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 0951E5BA182F46A600929A4A /* decalnew-hd.pvr.ccz */; };
 		09CEF19E18302388009C9272 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CEF19D18302387009C9272 /* Images.xcassets */; };
 		09CEF1A518302A22009C9272 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09CEF1A318302A22009C9272 /* Default@2x.png */; };
 		09CEF1A818303AC2009C9272 /* GameOver-568-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 09CEF1A718303AC2009C9272 /* GameOver-568-hd.png */; };
@@ -22,6 +20,10 @@
 		A204A93418618668002067DF /* MainMenu-568-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A204A93318618668002067DF /* MainMenu-568-hd.png */; };
 		A204A93A18619E01002067DF /* f-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = A204A93918619E01002067DF /* f-hd.pvr.ccz */; };
 		A204A93C18619E18002067DF /* f.plist in Resources */ = {isa = PBXBuildFile; fileRef = A204A93B18619E18002067DF /* f.plist */; };
+		A204A9491861A0FC002067DF /* sprites-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = A204A9451861A0FC002067DF /* sprites-hd.plist */; };
+		A204A94A1861A0FC002067DF /* sprites-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = A204A9461861A0FC002067DF /* sprites-hd.pvr.ccz */; };
+		A204A94B1861A0FC002067DF /* sprites.plist in Resources */ = {isa = PBXBuildFile; fileRef = A204A9471861A0FC002067DF /* sprites.plist */; };
+		A204A94C1861A0FC002067DF /* sprites.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = A204A9481861A0FC002067DF /* sprites.pvr.ccz */; };
 		AC076686157BDFC600A399AE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC076685157BDFC600A399AE /* QuartzCore.framework */; };
 		AC076688157BDFC600A399AE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC076687157BDFC600A399AE /* OpenGLES.framework */; };
 		AC07668A157BDFC600A399AE /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC076689157BDFC600A399AE /* OpenAL.framework */; };
@@ -165,9 +167,7 @@
 /* Begin PBXFileReference section */
 		0951E5AB182F171700929A4A /* f-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "f-hd.plist"; path = "Monster/f-hd.plist"; sourceTree = "<group>"; };
 		0951E5AC182F171700929A4A /* f.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; name = f.pvr.ccz; path = Monster/f.pvr.ccz; sourceTree = "<group>"; };
-		0951E5AF182F1E2400929A4A /* decalnew-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "decalnew-hd.plist"; path = "Monster/decalnew-hd.plist"; sourceTree = "<group>"; };
 		0951E5B8182F3EF400929A4A /* Headshop.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Headshop.ttf; sourceTree = "<group>"; };
-		0951E5BA182F46A600929A4A /* decalnew-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; name = "decalnew-hd.pvr.ccz"; path = "Monster/decalnew-hd.pvr.ccz"; sourceTree = "<group>"; };
 		09CEF19D18302387009C9272 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Monster/Images.xcassets; sourceTree = "<group>"; };
 		09CEF1A318302A22009C9272 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		09CEF1A718303AC2009C9272 /* GameOver-568-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GameOver-568-hd.png"; path = "imgs/GameOver-568-hd.png"; sourceTree = "<group>"; };
@@ -178,6 +178,10 @@
 		A204A93318618668002067DF /* MainMenu-568-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MainMenu-568-hd.png"; path = "imgs/MainMenu-568-hd.png"; sourceTree = "<group>"; };
 		A204A93918619E01002067DF /* f-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; name = "f-hd.pvr.ccz"; path = "Monster/f-hd.pvr.ccz"; sourceTree = "<group>"; };
 		A204A93B18619E18002067DF /* f.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = f.plist; path = Monster/f.plist; sourceTree = "<group>"; };
+		A204A9451861A0FC002067DF /* sprites-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "sprites-hd.plist"; path = "Monster/sprites-hd.plist"; sourceTree = "<group>"; };
+		A204A9461861A0FC002067DF /* sprites-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; name = "sprites-hd.pvr.ccz"; path = "Monster/sprites-hd.pvr.ccz"; sourceTree = "<group>"; };
+		A204A9471861A0FC002067DF /* sprites.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = sprites.plist; path = Monster/sprites.plist; sourceTree = "<group>"; };
+		A204A9481861A0FC002067DF /* sprites.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; name = sprites.pvr.ccz; path = Monster/sprites.pvr.ccz; sourceTree = "<group>"; };
 		AC076681157BDFC600A399AE /* Monster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC076685157BDFC600A399AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AC076687157BDFC600A399AE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -463,6 +467,10 @@
 		0951E559182EF76500929A4A /* test-sprite */ = {
 			isa = PBXGroup;
 			children = (
+				A204A9451861A0FC002067DF /* sprites-hd.plist */,
+				A204A9461861A0FC002067DF /* sprites-hd.pvr.ccz */,
+				A204A9471861A0FC002067DF /* sprites.plist */,
+				A204A9481861A0FC002067DF /* sprites.pvr.ccz */,
 				A204A93B18619E18002067DF /* f.plist */,
 				0951E5AB182F171700929A4A /* f-hd.plist */,
 				0951E5AC182F171700929A4A /* f.pvr.ccz */,
@@ -470,8 +478,6 @@
 				A204A93118617DEA002067DF /* bgb-568-hd.png */,
 				A204A92D18614F17002067DF /* bgf-568-hd.png */,
 				A204A92B18614AC5002067DF /* background-568.jpg */,
-				0951E5BA182F46A600929A4A /* decalnew-hd.pvr.ccz */,
-				0951E5AF182F1E2400929A4A /* decalnew-hd.plist */,
 			);
 			name = "test-sprite";
 			sourceTree = "<group>";
@@ -951,6 +957,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0951E5B9182F3F5000929A4A /* Headshop.ttf in Resources */,
+				A204A94A1861A0FC002067DF /* sprites-hd.pvr.ccz in Resources */,
 				AC07669A157BDFC600A399AE /* fps_images.png in Resources */,
 				A204A93418618668002067DF /* MainMenu-568-hd.png in Resources */,
 				AC0766A9157BDFC600A399AE /* iTunesArtwork in Resources */,
@@ -961,8 +968,10 @@
 				09CEF1A518302A22009C9272 /* Default@2x.png in Resources */,
 				ACF31FDE1587605800EC7F1E /* crash.wav in Resources */,
 				0951E5AD182F171700929A4A /* f-hd.plist in Resources */,
+				A204A9491861A0FC002067DF /* sprites-hd.plist in Resources */,
 				ACF31FDF1587605800EC7F1E /* fall.wav in Resources */,
 				ACF31FE01587605800EC7F1E /* hit.wav in Resources */,
+				A204A94C1861A0FC002067DF /* sprites.pvr.ccz in Resources */,
 				ACF31FE11587605800EC7F1E /* jump.wav in Resources */,
 				E3A88BEF17F2CAA60039EB4E /* bgf.png in Resources */,
 				A204A93C18619E18002067DF /* f.plist in Resources */,
@@ -976,17 +985,16 @@
 				ACF31FE51587605800EC7F1E /* slip.wav in Resources */,
 				A204A93218617DEA002067DF /* bgb-568-hd.png in Resources */,
 				ACF31FE61587605800EC7F1E /* step.wav in Resources */,
+				A204A94B1861A0FC002067DF /* sprites.plist in Resources */,
 				09CEF1A818303AC2009C9272 /* GameOver-568-hd.png in Resources */,
 				E3A88BE917F2CA5C0039EB4E /* bgm.mp3 in Resources */,
 				A204A92A186144CB002067DF /* Default-568h@2x.png in Resources */,
 				ACF31FE71587605800EC7F1E /* stepWet.wav in Resources */,
 				AC2C85E215A970290050208F /* MainMenu-hd.png in Resources */,
 				AC2C85E315A970290050208F /* MainMenu.png in Resources */,
-				0951E5BB182F46A600929A4A /* decalnew-hd.pvr.ccz in Resources */,
 				AC2C85E615A972D80050208F /* flash-hd.png in Resources */,
 				AC2C85E715A972D80050208F /* flash.png in Resources */,
 				E3A88BD917F2C2DC0039EB4E /* background.jpg in Resources */,
-				0951E5B1182F1E2400929A4A /* decalnew-hd.plist in Resources */,
 				E3A8FAA917F2CDFE00A3CA81 /* daylight-hd.png in Resources */,
 				A204A93A18619E01002067DF /* f-hd.pvr.ccz in Resources */,
 				AC71074715A9E089001889C7 /* readyGo-hd.plist in Resources */,
