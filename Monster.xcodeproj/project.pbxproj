@@ -20,6 +20,8 @@
 		A204A92E18614F17002067DF /* bgf-568-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A204A92D18614F17002067DF /* bgf-568-hd.png */; };
 		A204A93218617DEA002067DF /* bgb-568-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A204A93118617DEA002067DF /* bgb-568-hd.png */; };
 		A204A93418618668002067DF /* MainMenu-568-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A204A93318618668002067DF /* MainMenu-568-hd.png */; };
+		A204A93A18619E01002067DF /* f-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = A204A93918619E01002067DF /* f-hd.pvr.ccz */; };
+		A204A93C18619E18002067DF /* f.plist in Resources */ = {isa = PBXBuildFile; fileRef = A204A93B18619E18002067DF /* f.plist */; };
 		AC076686157BDFC600A399AE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC076685157BDFC600A399AE /* QuartzCore.framework */; };
 		AC076688157BDFC600A399AE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC076687157BDFC600A399AE /* OpenGLES.framework */; };
 		AC07668A157BDFC600A399AE /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC076689157BDFC600A399AE /* OpenAL.framework */; };
@@ -174,6 +176,8 @@
 		A204A92D18614F17002067DF /* bgf-568-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgf-568-hd.png"; sourceTree = "<group>"; };
 		A204A93118617DEA002067DF /* bgb-568-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgb-568-hd.png"; sourceTree = "<group>"; };
 		A204A93318618668002067DF /* MainMenu-568-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MainMenu-568-hd.png"; path = "imgs/MainMenu-568-hd.png"; sourceTree = "<group>"; };
+		A204A93918619E01002067DF /* f-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; name = "f-hd.pvr.ccz"; path = "Monster/f-hd.pvr.ccz"; sourceTree = "<group>"; };
+		A204A93B18619E18002067DF /* f.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = f.plist; path = Monster/f.plist; sourceTree = "<group>"; };
 		AC076681157BDFC600A399AE /* Monster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC076685157BDFC600A399AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AC076687157BDFC600A399AE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -459,13 +463,15 @@
 		0951E559182EF76500929A4A /* test-sprite */ = {
 			isa = PBXGroup;
 			children = (
+				A204A93B18619E18002067DF /* f.plist */,
+				0951E5AB182F171700929A4A /* f-hd.plist */,
+				0951E5AC182F171700929A4A /* f.pvr.ccz */,
+				A204A93918619E01002067DF /* f-hd.pvr.ccz */,
 				A204A93118617DEA002067DF /* bgb-568-hd.png */,
 				A204A92D18614F17002067DF /* bgf-568-hd.png */,
 				A204A92B18614AC5002067DF /* background-568.jpg */,
 				0951E5BA182F46A600929A4A /* decalnew-hd.pvr.ccz */,
 				0951E5AF182F1E2400929A4A /* decalnew-hd.plist */,
-				0951E5AB182F171700929A4A /* f-hd.plist */,
-				0951E5AC182F171700929A4A /* f.pvr.ccz */,
 			);
 			name = "test-sprite";
 			sourceTree = "<group>";
@@ -959,6 +965,7 @@
 				ACF31FE01587605800EC7F1E /* hit.wav in Resources */,
 				ACF31FE11587605800EC7F1E /* jump.wav in Resources */,
 				E3A88BEF17F2CAA60039EB4E /* bgf.png in Resources */,
+				A204A93C18619E18002067DF /* f.plist in Resources */,
 				ACF31FE21587605800EC7F1E /* levelUp.wav in Resources */,
 				ACF31FE31587605800EC7F1E /* ouch.wav in Resources */,
 				ACF31FE41587605800EC7F1E /* quake.wav in Resources */,
@@ -981,6 +988,7 @@
 				E3A88BD917F2C2DC0039EB4E /* background.jpg in Resources */,
 				0951E5B1182F1E2400929A4A /* decalnew-hd.plist in Resources */,
 				E3A8FAA917F2CDFE00A3CA81 /* daylight-hd.png in Resources */,
+				A204A93A18619E01002067DF /* f-hd.pvr.ccz in Resources */,
 				AC71074715A9E089001889C7 /* readyGo-hd.plist in Resources */,
 				AC71074815A9E089001889C7 /* readyGo-hd.pvr.ccz in Resources */,
 				E3A88BEB17F2CA990039EB4E /* background-hd.jpg in Resources */,

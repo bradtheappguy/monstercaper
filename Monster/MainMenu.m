@@ -41,7 +41,7 @@
         //[[SimpleAudioEngine sharedEngine] preloadEffect:@"coin.wav" ];
                             
            
-        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"f-hd.plist"];
+        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"f.plist"];
         [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"decalnew-hd.plist"];
         
         
