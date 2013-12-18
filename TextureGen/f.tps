@@ -4,12 +4,29 @@
         <key>fileFormatVersion</key>
         <int>3</int>
         <key>texturePackerVersion</key>
-        <string>3.2.0</string>
+        <string>3.2.1</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
                 <key>scale</key>
                 <double>1</double>
+                <key>extension</key>
+                <string>-hd</string>
+                <key>spriteFilter</key>
+                <string></string>
+                <key>acceptFractionalValues</key>
+                <false/>
+                <key>maxTextureSize</key>
+                <QSize>
+                    <key>width</key>
+                    <int>2048</int>
+                    <key>height</key>
+                    <int>2048</int>
+                </QSize>
+            </struct>
+            <struct type="AutoSDSettings">
+                <key>scale</key>
+                <double>0.5</double>
                 <key>extension</key>
                 <string></string>
                 <key>spriteFilter</key>
@@ -19,16 +36,14 @@
                 <key>maxTextureSize</key>
                 <QSize>
                     <key>width</key>
-                    <int>-1</int>
+                    <int>1024</int>
                     <key>height</key>
-                    <int>-1</int>
+                    <int>1024</int>
                 </QSize>
             </struct>
         </array>
         <key>allowRotation</key>
-        <false/>
-        <key>quiet</key>
-        <false/>
+        <true/>
         <key>premultiplyAlpha</key>
         <false/>
         <key>shapeDebug</key>
@@ -38,7 +53,7 @@
         <key>dataFormat</key>
         <string>cocos2d</string>
         <key>textureFileName</key>
-        <filename>../Monster/f.pvr.ccz</filename>
+        <filename>../Monster/f{v}.pvr.ccz</filename>
         <key>flipPVR</key>
         <false/>
         <key>ditherType</key>
@@ -129,7 +144,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../Monster/f-hd.plist</filename>
+                <filename>../Monster/f{v}.plist</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -162,7 +177,7 @@
             <key>trimThreshold</key>
             <uint>1</uint>
             <key>trimMode</key>
-            <enum type="SpriteSettings::TrimMode">None</enum>
+            <enum type="SpriteSettings::TrimMode">Trim</enum>
             <key>heuristicMask</key>
             <false/>
         </struct>
