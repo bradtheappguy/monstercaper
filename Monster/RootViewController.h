@@ -8,9 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+#import "TFTTapForTap.h"
 
 @interface RootViewController : UIViewController {
-
+  
 }
+
+@property (nonatomic, retain) TFTInterstitial *interstitial;
+
+- (void) showInterstitial;
 
 @end

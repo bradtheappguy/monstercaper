@@ -14,6 +14,8 @@
 #import "MainMenu.h"
 #import "RootViewController.h"
 
+#import "TFTTapForTap.h"
+
 @implementation AppDelegate
 
 @synthesize window;
@@ -41,7 +43,9 @@
 }
 - (void) applicationDidFinishLaunching:(UIApplication*)application
 {
-    
+  
+  [TFTTapForTap initializeWithAPIKey:@"86f4930d6a09e69688f9e84c736e3b12"];
+  
 	// Init the window
 	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	
@@ -56,7 +60,8 @@
 	// Init the View Controller
 	viewController = [[RootViewController alloc] initWithNibName:nil bundle:nil];
 	viewController.wantsFullScreenLayout = YES;
-	
+	[viewController view];
+  
 	//
 	// Create the EAGLView manually
 	//  1. Create a RGB565 format. Alternative: RGBA8

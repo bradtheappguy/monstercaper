@@ -29,6 +29,12 @@
 		A204A9531861A3B7002067DF /* bgf.png in Resources */ = {isa = PBXBuildFile; fileRef = A204A9501861A3B6002067DF /* bgf.png */; };
 		A204A9541861A3B7002067DF /* daylight.png in Resources */ = {isa = PBXBuildFile; fileRef = A204A9511861A3B6002067DF /* daylight.png */; };
 		A204A9561861A448002067DF /* GameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = A204A9551861A448002067DF /* GameOver.png */; };
+		A2FCB84B1899D99A0066E463 /* libTapForTap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FCB83A1899D99A0066E463 /* libTapForTap.a */; };
+		A2FCB84C1899D99A0066E463 /* libTapForTapAdMob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FCB83B1899D99A0066E463 /* libTapForTapAdMob.a */; };
+		A2FCB84F1899D9EB0066E463 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FCB84E1899D9EB0066E463 /* MessageUI.framework */; };
+		A2FCB8511899D9F80066E463 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FCB8501899D9F80066E463 /* SystemConfiguration.framework */; };
+		A2FCB8531899DA070066E463 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FCB8521899DA070066E463 /* CoreLocation.framework */; };
+		A2FCB8601899DBAF0066E463 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FCB85F1899DBAF0066E463 /* AdSupport.framework */; };
 		AC076686157BDFC600A399AE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC076685157BDFC600A399AE /* QuartzCore.framework */; };
 		AC076688157BDFC600A399AE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC076687157BDFC600A399AE /* OpenGLES.framework */; };
 		AC07668A157BDFC600A399AE /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC076689157BDFC600A399AE /* OpenAL.framework */; };
@@ -191,6 +197,16 @@
 		A204A9501861A3B6002067DF /* bgf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgf.png; sourceTree = "<group>"; };
 		A204A9511861A3B6002067DF /* daylight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daylight.png; sourceTree = "<group>"; };
 		A204A9551861A448002067DF /* GameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GameOver.png; path = imgs/GameOver.png; sourceTree = "<group>"; };
+		A2FCB83A1899D99A0066E463 /* libTapForTap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTapForTap.a; sourceTree = "<group>"; };
+		A2FCB83B1899D99A0066E463 /* libTapForTapAdMob.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTapForTapAdMob.a; sourceTree = "<group>"; };
+		A2FCB83C1899D99A0066E463 /* TFTAppWall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTAppWall.h; sourceTree = "<group>"; };
+		A2FCB83D1899D99A0066E463 /* TFTBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTBanner.h; sourceTree = "<group>"; };
+		A2FCB83E1899D99A0066E463 /* TFTInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTInterstitial.h; sourceTree = "<group>"; };
+		A2FCB83F1899D99A0066E463 /* TFTTapForTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTTapForTap.h; sourceTree = "<group>"; };
+		A2FCB84E1899D9EB0066E463 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A2FCB8501899D9F80066E463 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A2FCB8521899DA070066E463 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A2FCB85F1899DBAF0066E463 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		AC076681157BDFC600A399AE /* Monster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC076685157BDFC600A399AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AC076687157BDFC600A399AE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -458,11 +474,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2FCB8601899DBAF0066E463 /* AdSupport.framework in Frameworks */,
+				A2FCB8531899DA070066E463 /* CoreLocation.framework in Frameworks */,
+				AC07668C157BDFC600A399AE /* AudioToolbox.framework in Frameworks */,
+				A2FCB8511899D9F80066E463 /* SystemConfiguration.framework in Frameworks */,
+				A2FCB84F1899D9EB0066E463 /* MessageUI.framework in Frameworks */,
 				AC076686157BDFC600A399AE /* QuartzCore.framework in Frameworks */,
+				A2FCB84C1899D99A0066E463 /* libTapForTapAdMob.a in Frameworks */,
 				AC076688157BDFC600A399AE /* OpenGLES.framework in Frameworks */,
 				AC07668A157BDFC600A399AE /* OpenAL.framework in Frameworks */,
-				AC07668C157BDFC600A399AE /* AudioToolbox.framework in Frameworks */,
 				AC07668E157BDFC600A399AE /* AVFoundation.framework in Frameworks */,
+				A2FCB84B1899D99A0066E463 /* libTapForTap.a in Frameworks */,
 				AC076690157BDFC600A399AE /* UIKit.framework in Frameworks */,
 				AC076692157BDFC600A399AE /* Foundation.framework in Frameworks */,
 				AC076694157BDFC600A399AE /* CoreGraphics.framework in Frameworks */,
@@ -490,9 +512,40 @@
 			name = "test-sprite";
 			sourceTree = "<group>";
 		};
+		A2FCB8361899D99A0066E463 /* SDKs */ = {
+			isa = PBXGroup;
+			children = (
+				A2FCB8371899D99A0066E463 /* TapForTap-iOS-3.0.9 */,
+			);
+			name = SDKs;
+			path = Monster/SDKs;
+			sourceTree = "<group>";
+		};
+		A2FCB8371899D99A0066E463 /* TapForTap-iOS-3.0.9 */ = {
+			isa = PBXGroup;
+			children = (
+				A2FCB8391899D99A0066E463 /* TapForTap */,
+			);
+			path = "TapForTap-iOS-3.0.9";
+			sourceTree = "<group>";
+		};
+		A2FCB8391899D99A0066E463 /* TapForTap */ = {
+			isa = PBXGroup;
+			children = (
+				A2FCB83A1899D99A0066E463 /* libTapForTap.a */,
+				A2FCB83B1899D99A0066E463 /* libTapForTapAdMob.a */,
+				A2FCB83C1899D99A0066E463 /* TFTAppWall.h */,
+				A2FCB83D1899D99A0066E463 /* TFTBanner.h */,
+				A2FCB83E1899D99A0066E463 /* TFTInterstitial.h */,
+				A2FCB83F1899D99A0066E463 /* TFTTapForTap.h */,
+			);
+			path = TapForTap;
+			sourceTree = "<group>";
+		};
 		AC076676157BDFC600A399AE = {
 			isa = PBXGroup;
 			children = (
+				A2FCB8361899D99A0066E463 /* SDKs */,
 				A204A94F1861A3B6002067DF /* bgb.png */,
 				A204A9501861A3B6002067DF /* bgf.png */,
 				A204A9511861A3B6002067DF /* daylight.png */,
@@ -520,6 +573,10 @@
 		AC076684157BDFC600A399AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A2FCB85F1899DBAF0066E463 /* AdSupport.framework */,
+				A2FCB8521899DA070066E463 /* CoreLocation.framework */,
+				A2FCB8501899D9F80066E463 /* SystemConfiguration.framework */,
+				A2FCB84E1899D9EB0066E463 /* MessageUI.framework */,
 				AC076685157BDFC600A399AE /* QuartzCore.framework */,
 				AC076687157BDFC600A399AE /* OpenGLES.framework */,
 				AC076689157BDFC600A399AE /* OpenAL.framework */,
@@ -1191,6 +1248,11 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Monster/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/brad/Projects/monstercaper/Monster/SDKs/TapForTap-iOS-3.0.9/TapForTap",
+					"/Users/brad/Projects/monstercaper/Monster/SDKs/TapForTap-iOS-3.0.9/TapForTapAdMob",
+				);
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1214,6 +1276,11 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Monster/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/brad/Projects/monstercaper/Monster/SDKs/TapForTap-iOS-3.0.9/TapForTap",
+					"/Users/brad/Projects/monstercaper/Monster/SDKs/TapForTap-iOS-3.0.9/TapForTapAdMob",
+				);
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "FF05A9CA-F1E4-4A1C-A9C7-71C44339107D";

@@ -226,7 +226,7 @@
 
 //show game over image and update some texts
 -(void) showGameOver{
-    
+    [[[[[UIApplication sharedApplication] delegate] window] rootViewController] showInterstitial];
     [self.coinText setString:self.runTimeCoinText.string];
     [self.disText setString:[NSString stringWithFormat:@"%i", (int) (self.dis*0.01)]];
    
