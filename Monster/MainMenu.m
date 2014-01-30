@@ -48,8 +48,10 @@
         self.isTouchEnabled = YES;
     
         CGFloat width = [[UIScreen mainScreen] bounds].size.height;
-        CCSprite *sp=[CCSprite spriteWithFile:(width > 480)?@"MainMenu.png":@"MainMenu.png"];
-        
+        CCSprite *sp=[CCSprite spriteWithFile:(width > 480)?@"MainMenu-568.png":@"MainMenu.png"];
+    
+    id x  = [UIImage imageNamed:@"MainMenu-568-hd.png"];
+    
         sp.anchorPoint=ccp(0,0);
         [self addChild:sp];
         
