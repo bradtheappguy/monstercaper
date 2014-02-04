@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>655F56B2-CDCE-4B01-AFE0-9AD36F60D59F</string>
+	<string>20E8B9DC-0224-448C-BE88-49070F5B1FB5</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Monster</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>ssh://github.com/bradsmithinc/monstercaper.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Monster.xcodeproj/project.xcworkspace</string>
+	<string>Monster.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>B389ACD1-49AE-4DB4-A8E6-73F7779DEDCF</key>
-		<string>../..</string>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/bradsmithinc/monstercaper.git</string>

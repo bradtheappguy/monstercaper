@@ -167,6 +167,7 @@
 		ACF31FE51587605800EC7F1E /* slip.wav in Resources */ = {isa = PBXBuildFile; fileRef = ACF31FDA1587605800EC7F1E /* slip.wav */; };
 		ACF31FE61587605800EC7F1E /* step.wav in Resources */ = {isa = PBXBuildFile; fileRef = ACF31FDB1587605800EC7F1E /* step.wav */; };
 		ACF31FE71587605800EC7F1E /* stepWet.wav in Resources */ = {isa = PBXBuildFile; fileRef = ACF31FDC1587605800EC7F1E /* stepWet.wav */; };
+		E198E573175C44B5950CC1C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1630B326223433FB8702347 /* libPods.a */; };
 		E3A88BE917F2CA5C0039EB4E /* bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3A88BE817F2CA5C0039EB4E /* bgm.mp3 */; };
 		E3A88BEB17F2CA990039EB4E /* background-hd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3A88BEA17F2CA990039EB4E /* background-hd.jpg */; };
 		E3A88BED17F2CA9F0039EB4E /* bgb-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A88BEC17F2CA9F0039EB4E /* bgb-hd.png */; };
@@ -181,6 +182,7 @@
 		09CEF19D18302387009C9272 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Monster/Images.xcassets; sourceTree = "<group>"; };
 		09CEF1A318302A22009C9272 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		09CEF1A718303AC2009C9272 /* GameOver-568.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GameOver-568.png"; path = "imgs/GameOver-568.png"; sourceTree = "<group>"; };
+		A1630B326223433FB8702347 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A204A929186144CB002067DF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A204A92B18614AC5002067DF /* background-568.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background-568.jpg"; sourceTree = "<group>"; };
 		A204A92D18614F17002067DF /* bgf-568.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgf-568.png"; sourceTree = "<group>"; };
@@ -467,6 +469,7 @@
 		E3A88BEC17F2CA9F0039EB4E /* bgb-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgb-hd.png"; sourceTree = "<group>"; };
 		E3A88BEE17F2CAA60039EB4E /* bgf-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgf-hd.png"; sourceTree = "<group>"; };
 		E3A8FAA817F2CDFE00A3CA81 /* daylight-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "daylight-hd.png"; sourceTree = "<group>"; };
+		F7AA6FD5EF4449C982EAB41B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -488,6 +491,7 @@
 				AC076690157BDFC600A399AE /* UIKit.framework in Frameworks */,
 				AC076692157BDFC600A399AE /* Foundation.framework in Frameworks */,
 				AC076694157BDFC600A399AE /* CoreGraphics.framework in Frameworks */,
+				E198E573175C44B5950CC1C8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +563,7 @@
 				AC076695157BDFC600A399AE /* CaveRun */,
 				AC076684157BDFC600A399AE /* Frameworks */,
 				AC076682157BDFC600A399AE /* Products */,
+				F7AA6FD5EF4449C982EAB41B /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -585,6 +590,7 @@
 				AC07668F157BDFC600A399AE /* UIKit.framework */,
 				AC076691157BDFC600A399AE /* Foundation.framework */,
 				AC076693157BDFC600A399AE /* CoreGraphics.framework */,
+				A1630B326223433FB8702347 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -977,9 +983,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC0767F3157BDFCA00A399AE /* Build configuration list for PBXNativeTarget "Monster" */;
 			buildPhases = (
+				D4B45A8D472547F1B7A1DAC4 /* Check Pods Manifest.lock */,
 				AC07667D157BDFC600A399AE /* Sources */,
 				AC07667E157BDFC600A399AE /* Frameworks */,
 				AC07667F157BDFC600A399AE /* Resources */,
+				B9ED05C4D5C6435A8401608E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1079,6 +1087,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B9ED05C4D5C6435A8401608E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4B45A8D472547F1B7A1DAC4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AC07667D157BDFC600A399AE /* Sources */ = {
@@ -1236,10 +1277,13 @@
 		};
 		AC0767F4157BDFCA00A399AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7AA6FD5EF4449C982EAB41B /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Brad Smith (SF98NV6X3H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Brad Smith (SF98NV6X3H)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1253,7 +1297,11 @@
 					"/Users/brad/Projects/monstercaper/Monster/SDKs/TapForTap-iOS-3.0.9/TapForTap",
 					"/Users/brad/Projects/monstercaper/Monster/SDKs/TapForTap-iOS-3.0.9/TapForTapAdMob",
 				);
-				OTHER_LDFLAGS = "-lz";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lz",
+					"$(inherited)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -1264,11 +1312,13 @@
 		};
 		AC0767F5157BDFCA00A399AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7AA6FD5EF4449C982EAB41B /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Brad Smith (399TA5Z29Z)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Brad Smith (399TA5Z29Z)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: RadiumOne, Inc. (ent)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: RadiumOne, Inc. (ent)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Monster/Prefix.pch;
@@ -1281,9 +1331,13 @@
 					"/Users/brad/Projects/monstercaper/Monster/SDKs/TapForTap-iOS-3.0.9/TapForTap",
 					"/Users/brad/Projects/monstercaper/Monster/SDKs/TapForTap-iOS-3.0.9/TapForTapAdMob",
 				);
-				OTHER_LDFLAGS = "-lz";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lz",
+					"$(inherited)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "FF05A9CA-F1E4-4A1C-A9C7-71C44339107D";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

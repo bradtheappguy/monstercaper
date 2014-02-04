@@ -13,7 +13,7 @@
 #import "GameMain.h"
 #import "MainMenu.h"
 #import "RootViewController.h"
-
+#import <Mixpanel/Mixpanel.h>
 #import "TFTTapForTap.h"
 
 @implementation AppDelegate
@@ -45,6 +45,9 @@
 {
   
   [TFTTapForTap initializeWithAPIKey:@"86f4930d6a09e69688f9e84c736e3b12"];
+  [Mixpanel sharedInstanceWithToken:@"75d0fb0bc7e7f7299324af895caf28ce"];
+  [[Mixpanel sharedInstance] track:@"launch"];
+  NSLog(@"MixPanel: Launch");
   
 	// Init the window
 	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
